@@ -85,7 +85,7 @@ namespace CalculatorTest
         public void TestFalseResult2()
         {
             Calculator cal = new Calculator();
-            Assert.AreNotEqual(9, cal.GetResult("23", "-", "14"));
+            Assert.AreNotEqual(10, cal.GetResult("23", "-", "14"));
         }
 
         [TestMethod]
